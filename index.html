@@ -309,10 +309,66 @@
 
   <!--Contact-us start-->
 
-  <section id="contact">
+  <section>
+    <!--Contact-us start-->
+  <section>
+    <div class="row "  id="contact">
+        <div class="col-lg-12 text-center text-primary mb-5 mt-4">  
+               <h1>CONTACT US</h1>
+        </div>
+         <div class="col-md-6">
+          <div class="text-left  mt-2 p-4 mb-4"><h4>Contact Details</h4>
+            <hr/>
+            <p><b><i class="fa-solid fa-location-dot"></i> Address: </b><span>ABC, Washington, AAA Road</span></p>
+            <p><b><i class="fa-solid fa-phone"></i> Phone Number: </b><span><a href="tel:+000 000000">+000 000000</a></span></p>
+            <p><b><i class="fa-solid fa-envelope"></i> Email: </b><span><a href="mailto:testemail@gmail.com">testemail@gmail.com</a></span></p>
 
-    Content for Contact us section
+           </div>
+           
+         </div>
+         <div class="col-md-6">
+            <div class="container py-4">
 
+                <!-- Bootstrap 5 starter form -->
+                <form id="contact-form">
+              
+                  <!-- Name input -->
+                  <div class="mb-3">
+                    <label class="form-label" for="fname">Name</label>
+                    <input class="form-control" id="fname" type="text" placeholder="Name" required />
+                 </div>
+              
+                  <!-- Email address input -->
+                  <div class="mb-3">
+                    <label class="form-label" for="email">Email Address</label>
+                    <input class="form-control" id="email" type="email" placeholder="Email Address" required />
+                  </div>
+              
+                  <!-- Message input -->
+                  <div class="mb-3">
+                    <label class="form-label" for="message">Message</label>
+                    <textarea class="form-control" id="message" type="text" placeholder="Message" style="height: 10rem;" required></textarea>
+                  </div>
+              
+                  <!-- Form submissions success message -->
+                  <div class="d-none" id="submitSuccessMessage">
+                    <div class="text-center mb-3">Form submission successful!</div>
+                  </div>
+                            
+                  <!-- Form submit button -->
+                  <div class="d-grid">
+                    <button class="btn btn-primary btn-lg disabled" id="submitButton" type="submit" onclick="SendMail()">Submit</button>
+                  </div>
+              
+                </form>
+              
+              </div>
+              
+             
+         </div>
+       </div>
+      </section>     
+    <!--Contact-us end-->
   </section>
 
   <!--Contact-us end-->
