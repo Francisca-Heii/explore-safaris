@@ -64,6 +64,14 @@ body {
     width: 28%;
 }
 
+a {
+  color: transparent;
+}
+
+a:hover {
+  color: transparent;
+}
+
 .carousel-caption{
     bottom: 0;
     top: 20%;
@@ -82,6 +90,14 @@ body {
 .navbar-nav{
     width: 100%;
 }
+
+hr.divider {
+    border-top: 2px solid #fff;
+    opacity: 1;
+    width: 12%;
+    margin-left: auto;
+    margin-right: auto;
+  }
 
 .position{
     position: absolute; 
@@ -159,9 +175,9 @@ h5 {
   
   .caption{
     position: absolute;
-    bottom: 25%;
-    left: 35%;
-    background: #6d7276a6;
+    bottom: 40%;
+    right: 35%;
+    background: #e3e6e90a;
     padding: 20px;
     font-weight: 600;
     color: #fff;
@@ -170,4 +186,174 @@ h5 {
   a h5.explore-caption{
     text-decoration: underline;
   }
+
+  .section-head {
+    border-bottom: 2px solid #fff ;
+    font-family: "Merriweather";
+    color: #fff;
+    font-weight: 400;
+
+  }
+
+  .zoom{
+    transition: transform .8s ease;
+  }
+  .zoom:hover {
+    -ms-transform: scale(1.1); /* IE 9 */
+    -webkit-transform: scale(1.1); /* Safari 3-8 */
+    transform: scale(1.1); 
+  }
+
+  
+/**********explore fadeIn start********/
+
+.caption{
+    position: absolute;
+    bottom: 26%;
+    left: 18%;
+    background: #2d302c47;
+    padding: 20px;
+    font-weight: 600;
+    color: #fff;
+    max-width: 400px;
+    width: 400px;
+  }
+  
+  .main-title{
+    color: #2d2d2d;
+    text-align: center;
+    text-transform: capitalize;
+    padding: 0.7em 0;
+  }
+  .container-expolre{
+    padding: 1em 0;
+    float: left;
+    width: 50%;
+  }
+  @media screen and (max-width: 640px){
+    .container-expolre{
+      display: block;
+      width: 100%;
+    }
+  }
+  
+  @media screen and (min-width: 900px){
+    .container-expolre{
+      width: 33.33333%;
+    }
+  }
+  
+  .container-expolre .title{
+    color: #1a1a1a;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  
+  .content {
+    position: relative;
+    width: 100%;
+    /* max-width: 400px; */
+    /* margin: auto; */
+    overflow: hidden;
+    /* margin: 15px; */
+    padding: 15px;
+  }
+  
+  .content .content-overlay {
+    background: rgba(0,0,0,0.7);
+    position: absolute;
+    height: 99%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    opacity: 0;
+    -webkit-transition: all 0.4s ease-in-out 0s;
+    -moz-transition: all 0.4s ease-in-out 0s;
+    transition: all 0.4s ease-in-out 0s;
+  }
+  
+  .content:hover .content-overlay{
+    opacity: 1;
+  }
+  .content:hover .caption{
+    display: none;
+  }
+  
+  .content-image{
+    width: 100%;
+  }
+  
+  .content-details {
+    position: absolute;
+    text-align: center;
+    padding-left: 1em;
+    padding-right: 1em;
+    width: 100%;
+    top: 50%;
+    left: 50%;
+    opacity: 0;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    -webkit-transition: all 0.3s ease-in-out 0s;
+    -moz-transition: all 0.3s ease-in-out 0s;
+    transition: all 0.3s ease-in-out 0s;
+  }
+  
+  .content:hover .content-details{
+    top: 50%;
+    left: 50%;
+    opacity: 1;
+  }
+  
+  .content-details h3{
+    color: #fff;
+    font-weight: 500;
+    letter-spacing: 0.15em;
+    margin-bottom: 0.5em;
+    text-transform: uppercase;
+  }
+  
+  .content-details p{
+    color: #fff;
+    font-size: 0.8em;
+  }
+  
+  .fadeIn-bottom{
+    top: 80%;
+  }
+  
+  .fadeIn-top{
+    top: 20%;
+  }
+  
+  .fadeIn-left{
+    left: 20%;
+  }
+  
+  .fadeIn-right{
+    left: 80%;
+  }
+  
+  /**********explore fadeIn end********/
+
+  /* Footer start */
+  .social-icons{
+    padding: 0px 10px;
+  }
+  
+  footer{
+    position: absolute;
+    left: 0;
+    right: 0;
+    width: 100%;
+    margin:0;
+    padding:0;
+  }
+   /* Footer end */
+  
+
+  
 
