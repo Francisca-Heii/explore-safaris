@@ -17,6 +17,7 @@ body {
 
 .navbar{
     background-color:#ccbbbb; 
+   
 }
 
 .nav-container {
@@ -347,6 +348,9 @@ h5 {
   }
   
   footer{
+    background-color:#ccbbbb;
+    color: rgba(0,0,0,.55); 
+    font-weight: 600;
     position: absolute;
     left: 0;
     right: 0;
@@ -355,6 +359,13 @@ h5 {
     padding:0;
   }
    /* Footer end */
+
+   .ruler {
+    color: #fff;
+    font-weight: 700;
+    border-bottom: 2px solid #fff;
+    line-height: 3rem;
+   }
   
 
   
