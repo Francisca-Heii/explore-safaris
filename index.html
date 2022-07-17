@@ -343,11 +343,12 @@
           <h3 class="text-secondary mb-1 text-center"><span class="section-head">Contact</span></h3>
         </div>
          <div class="col-md-6">
+          <div class="container">
           <div class="text-left  mt-2 p-4 mb-4"><h4 class="ruler">Contact Details</h4>
             <p><b><i class="fa-solid fa-location-dot"></i> Address: </b><span>ABC, Washington, AAA Road</span></p>
             <p><b><i class="fa-solid fa-phone"></i> Phone Number: </b><span><a href="tel:+000 000000">+000 000000</a></span></p>
             <p><b><i class="fa-solid fa-envelope"></i> Email: </b><span><a href="mailto:testemail@gmail.com">testemail@gmail.com</a></span></p>
-
+          </div>
            </div>
            
          </div>
@@ -358,21 +359,37 @@
                 <form id="contact-form">
               
                   <!-- Name input -->
+            <div class="row g-3">
+                <div class="col">
+                  <label class="form-label" for="firstname">First Name</label>
+                  <input type="text" id="firstname" class="form-control" placeholder="First name" aria-label="First name" onfocusOut="isEmpty()" required>
+                </div>
+                <div class="col">
+                  <label class="form-label" for="lastname">Last Name</label>
+                  <input type="text" id="lastname" class="form-control" placeholder="Last name" aria-label="Last name" onfocusOut="isEmpty()" required>
+                </div>
+          </div>
+          <div class="row g-3">
+            <div class="col">
+              <label class="form-label" for="email">Email</label>
+              <input type="email" id="email" class="form-control" placeholder="email" aria-label="email" onfocusOut="isEmpty()" required>
+            </div>
+            <div class="col">
+              <label class="form-label" for="phonenumber">Phone Number</label>
+              <input type="text" id="phonenumber" class="form-control" placeholder="01 3564782" aria-label="phonenumber" onfocusOut="isEmpty()" required>
+            </div>
+      </div>
+
+                  <!-- Subject input -->
                   <div class="mb-3">
-                    <label class="form-label" for="fname">Name</label>
-                    <input class="form-control" id="fname" type="text" placeholder="Name" required />
-                 </div>
-              
-                  <!-- Email address input -->
-                  <div class="mb-3">
-                    <label class="form-label" for="email">Email Address</label>
-                    <input class="form-control" id="email" type="email" placeholder="Email Address" required />
+                    <label class="form-label" for="subject">Subject</label>
+                    <input class="form-control" id="subject" type="text" placeholder="subject" onfocusOut="isEmpty()" required />
                   </div>
               
                   <!-- Message input -->
                   <div class="mb-3">
                     <label class="form-label" for="message">Message</label>
-                    <textarea class="form-control" id="message" type="text" placeholder="Message" style="height: 10rem;" required></textarea>
+                    <textarea class="form-control" id="message" type="text" placeholder="Message" style="height: 10rem;" onfocusOut="isEmpty()" required></textarea>
                   </div>
               
                   <!-- Form submissions success message -->
@@ -382,13 +399,14 @@
                             
                   <!-- Form submit button -->
                   <div class="d-grid">
-                    <button class="btn btn-primary btn-lg" id="submitButton" type="submit" onclick="SendMail()">Submit</button>
+                    <button class="btn btn-success btn-lg" id="submitButton" type="submit" disabled onclick="SendMail()">Submit</button>
                   </div>
               
                 </form>
               
               </div>
               
+             
              
          </div>
        </div>
@@ -501,3 +519,5 @@ Remember that you may shoot more pictures than ever before in your life because 
 <script src="safari.js"></script>
 
 </html>
+
+
