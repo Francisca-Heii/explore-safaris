@@ -13,6 +13,8 @@ body {
     /* background-color: #d4d4d0; */
     background-color: #362515;
     font-family: 'Merriweather Sans', sans-serif;
+    font-size: 18px;
+    letter-spacing: 2px;
 }
 
 .navbar{
@@ -159,7 +161,8 @@ hr.divider {
 h5 {
     font-weight: bold;
     font-style: oblique;
-    letter-spacing: 2px;
+    letter-spacing: 3px;
+    text-align: center;
 }
 
 .card-text {
@@ -366,6 +369,70 @@ h5 {
     border-bottom: 2px solid #fff;
     line-height: 3rem;
    }
+
+/* section1 */
+.title{
+background-color: rgb(236, 233, 228);
+padding: 10px;
+width:100%;
+}
+
+
+/* season start */
+.season .col-lg-1 {
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+/* rtl:begin:ignore */
+.season .col-lg-1 p {
+  margin-right: .75rem;
+  margin-left: .75rem;
+}
+/* season end  */  
+/* .circle1{
+width:10vw;
+height: 10vw;
+border-radius: 50%;
+background: blue;
+
+}
+.circle1 .circle_text{
+position: relative;
+top: 42%;
+left:42%;
+} */
+
+
+
+
+.circle1, .circle2, .circle3 {
+margin: 12px;
+border-radius: 50%;
+font-size: 18px;
+line-height: 52px;
+text-align: center;
+color: #fff;
+padding: 16px;
+}
+.circle1{
+background: #5f682e;
+}
+.circle2{
+background: #979d70;
+}
+.circle3{
+background: #6c4100;
+}
+
+label {
+    display: inline-block;
+    margin-top: 20px;
+    font-weight: 900;
+    color: #0fc937;
+    padding-left: 10px;
+}
+
+
   
 
   
