@@ -90,6 +90,14 @@ a:hover {
     margin-bottom: 112px;
 }
 
+.video-wrapper {
+  margin-top: 20px;
+  margin-bottom: 50px;
+  border: 10px solid #eeeeee;
+  border-radius: 10px;
+  box-shadow: 10px 8px 20px 3px rgb(0 0 0 / 34%);
+}
+
 .navbar-nav{
     width: 100%;
 }
