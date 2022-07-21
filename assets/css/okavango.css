@@ -1,0 +1,80 @@
+/* hero image1 start */
+.bgimage1 {
+    width:100%;
+    height:500px;
+    /* background: url('../images/national-park/chobe--3.jpg'); */
+    background: url('../images/okavango/okavango-home.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
+    position: relative;
+    margin-top:6rem;
+  }
+  .bgimage1 h4 {
+    color:white;
+    text-shadow:2px 2px #333;
+  }
+  .hero-content1 {
+    position: absolute;
+    text-align: center;
+    top:38%;
+    left: 38%;
+  
+  }
+  .top-left {
+  position: relative;
+  top: 8px;
+  left: 16px;
+  background: #fff;
+  color: #000;
+  width: fit-content;
+  padding: 10px 20px;
+  }
+  .top-left h4{
+  text-shadow:2px 2px #333;
+  }
+
+  .okavango-page {
+    font-weight: 900;
+    font-size: 40px;
+    letter-spacing: 5px;
+  }
+    
+  /* hero image end */
+
+  .season-head {
+    font-size: 24px;
+    color: rgb(85, 235, 55) !important;
+
+  }
+
+  .bullet1, .bullet2, .bullet3 {
+    margin: 14px;
+    border-radius: 50%;
+    font-size: 16px;
+    line-height: 45px;
+    text-align: center;
+    color: #fff;
+    padding: 4px 6px;
+  }
+
+    .bullet1{
+    background: #5f682e;
+    }
+    .bullet2{
+    background: #979d70;
+    }
+    .bullet3{
+    background: #6c4100;
+    }
+    
+    .bannerimg3 {
+      width:100%;
+    height:500px;
+    background: url('../images/okavango/landscape1.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
+    position: relative;
+    margin-top:6rem;
+    }
