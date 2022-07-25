@@ -78,4 +78,126 @@
     margin-top:2rem;
 
     }
+
+    .bullet-green, .bullet-red,
+    .bullet-grey, .bullet-yellow,
+    .bullet-dark-red, .bullet-light-green {
+      height: 14px;
+      width: 14px;
+      border-radius: 50%;
+      display: inline-block;
+      float: left;
+      padding: 0px !important;
+      margin: 5px !important;
+      margin-left: -10px !important;
+  }
+  
+  .bullet-green {
+    background-color: green;  
+  }
+
+  .bullet-light-green {
+    background-color: lightgreen;  
+  }
+
+  .bullet-dark-red {
+    background-color: darkred;  
+  }
+
+  .bullet-red {
+    background-color: red;  
+  }
+
+  .bullet-yellow {
+    background-color: yellow;  
+  }
+
+  .bullet-grey {
+    background-color: grey;  
+  }
+
+
+  .animal-status{
+    width:fit-content;
+  }
+   
+  p.animal a img {
+      display: none;
+      position: absolute;
+      left:0px;
+      top: 20px;
+      transition: 3s ease-in-out;
+  }
+  p.animal a {
+      display: inline-block;
+      position: relative;
+      margin-left:-100px;
+      color:#fff;
+      
+  }
+  p.animal a img {
+      display: none;
+  }
+  p.animal a:hover img {
+      display: inherit;
+      border:5px solid rgb(228, 226, 226);
+      border-radius: 10px;
+      position: absolute;
+      top: -200px;
+      left:-82px;
+      /* transition-delay: 1.8s; */
+      
+  }
+  p.animal {
+      margin-left: 100px;
+  }
+  
+  /* Container holding the image and the text */
+  .container-bg {
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+  
+  /* Bottom left text */
+  .bottom-left {
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+  }
+  
+  /* Top left text */
+  .top-left {
+    position: absolute;
+    top: 8px;
+    left: 16px;
+  }
+  
+  /* Top right text */
+  .top-right {
+    position: absolute;
+    top: 8px;
+    right: 16px;
+  }
+  
+  /* Bottom right text */
+  .bottom-right {
+    position: absolute;
+    bottom: 8px;
+    right: 16px;
+  }
+  
+  /* Centered text */
+  .centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .wildlife {
+    padding-left: 50px;
+    
+  }
+  
     
