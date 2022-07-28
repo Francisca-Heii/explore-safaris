@@ -202,7 +202,7 @@
 
   .card-img-top {
     /* background-color: #fff; */
-    padding: 30px;
+    padding: 10px;
     border-radius: 10px;
 
   }
@@ -411,10 +411,19 @@
   .places-to-stay {
   background-color: #a19898;
   margin-top: 50px;
-  margin-bottom: 50px;
+  /* margin-bottom: 50px; */
+  padding:50px 0px;
   }
 
   .show-more-section {
     margin-bottom: 50px;
   }
+
+  /* map */
+  #map {
+    height: 600px;
+    /* The height is 400 pixels */
+    width: 100%;
+    /* The width is the width of the web page */
+}
   

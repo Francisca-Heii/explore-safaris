@@ -17,9 +17,9 @@
 
   <link rel="stylesheet" href="/assets/css/style.css">
   <link rel="stylesheet" href="/assets/css/okavango.css">
+<!--jquery for google mapaps-->
+  <script type="text/javascript" charset="utf8" src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-2.0.3.js"></script>
 
-  <!--google map js-->
-<script src="./assets/js/okavango-map.js"></script>
 
   <title>Explore Safaris</title>
 </head>
@@ -30,7 +30,7 @@
     <div class="container-fluid">
       <a class="navbar-brand" href="index.html#home">
         <img src="/assets/images/logo.png" class="logo">
-        <span>Explore Safaris</span>
+        <span>EXPLORE SAFARIS</span>
       </a>
       <button class="navbar-toggler position" type="button" data-bs-toggle="collapse"
         data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
@@ -40,16 +40,16 @@
       <div class="collapse navbar-collapse " id="navbarSupportedContent">
         <ul class="navbar-nav me-auto mb-2 mb-lg-0 justify-content-end">
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="index.html#home">Home</a>
+            <a class="nav-link active" aria-current="page" href="index.html#home">HOME</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="index.html#about">About</a>
+            <a class="nav-link" href="index.html#about">ABOUT</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="index.html#explore">Explore</a>
+            <a class="nav-link" href="index.html#explore">EXPLORE</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="index.html#contact">Contact Us</a>
+            <a class="nav-link" href="index.html#contact">CONTACT US</a>
           </li>
 
         </ul>
@@ -402,7 +402,7 @@
                             <div class="stay-details-desc">
                                 <p>Okavango Delta, Botswana</p>
                             </div>
-                            <span class="price"> &euro;</span>
+                            <span class="price">60.00 &euro;</span>
                         </div>
                         
                     </div>                       
@@ -472,12 +472,14 @@
 <section>
   <div class="container-fluid">
     <div class="row">
+     <!--The div element for the map -->
+    <div id="map"></div>
+      </div>
     </div>
   </div>
 
 </section>
-<div id="map-canvas" style="width: 100%; height: 600px;">
-</div>
+
 
 <!--Footer start-->
 
@@ -493,10 +495,10 @@
       </div>
       <div class="col-md">
         <div>
-          <span class="social-icons h2"><i class="fab fa-instagram"></i></span>
-          <span class="social-icons h2"><i class="fab fa-facebook"></i></span>
-          <span class="social-icons h2"><i class="fab fa-twitter"></i></span>
-          <span class="social-icons h2"><i class="fab fa-youtube"></i></span>
+          <a href="https://www.instagram.com/" target="_blank"><span class="social-icons h2"><i class="fab fa-instagram"></i></span></a>
+          <a href="https://www.facebook.com/" target="_blank"><span class="social-icons h2"><i class="fab fa-facebook"></i></span> </a>
+          <a href="https://twitter.com/" target="_blank"><span class="social-icons h2"><i class="fab fa-twitter"></i></span></a>
+          <a href="https://www.youtube.com/" target="_blank"><span class="social-icons h2"><i class="fab fa-youtube"></i></span></a>
         </div>  
       </div>
       
@@ -516,10 +518,14 @@
 </body>
 
 <!--google map api-->
-<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBGJuqrzveozY5pfYrqfJ7BLCWYVMMU7Zk&sensor=true" type="text/javascript"></script>
+
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBGJuqrzveozY5pfYrqfJ7BLCWYVMMU7Zk"></script>
 
 <!--Show more button-->
 <script src="./assets/js/wildlife.js"></script>
+
+ <!--google map js-->
+ <script src="./assets/js/okavango-map.js"></script>
 
 <!-- Swiper JS -->
 <script src="./assets/js/swiper-bundle.min.js"></script>
