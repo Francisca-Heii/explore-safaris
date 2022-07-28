@@ -1,16 +1,16 @@
-# Explore Safaris
-The Okavango Delta and Chobe National Park in the north are areas of outstanding natural beauty and rich in animal life.
+# **Explore Safaris**
+[View live version of website via GitHub Pages](https://franciskadtt.github.io/voyager/)
 ![Website Displayed on 'AmIResponsive.com'](assets/images/readme-images/explore-safaris-amiresponsive.png)
 
-**_Explore Safaris_** is an interactive safari application built with HTML, CSS, and JavaScript. The main users of the application are tourists who plan to visit safaris in Botswana or anyone who could be interested in browsing the application to find out more information about safaris
-and which places they can explore.
+**_Explore Safaris_** is an interactive safari application built with HTML, CSS, and JavaScript. The main users of the application are tourists who plan to visit safaris in Botswana or anyone who could be interested in browsing the application to find out more information about safaris and which places they can explore.
 
 Botswana is a landlord country in Southern Africa. It is bordered by South Africa to the south and east, Namibia to the west, and Zimbabwe to the east. The country is roughly the size of France, yet over 40% of it is protected and conserved for wildlife. This is why the Botswana safaris holidays are unique, so you should absolutely try Botswana Safaris.
 
 *WHAT IS A SAFARI*: 
 In the broadest sense, to go on safari is simply to travel. More especially, A SAFARI is an exciting and adventurous way of seeing the ‘real Africa’ because it enables you to view a variety of wildlife in their natural habitat. As a result, going on a safari gives you an authentic experience of Africa. The purpose of a safari tour is to allow you to get intimate with the landscape and scenery. Safaris can involve walking through the wilderness, game viewing by 4x4 safari vehicle, boat, canoe, or small plane, to name a few.
 
-The business goal of the website are:
+<a></a>
+## **The business goal of the website are**:
 * Excellent UX to keep the users interested, and engaged and help build the brand.
 * The website is responsive on all device sizes, giving the user more options where they can view the site without any issues, for example, the site can be viewed on desktop/laptop, iPad, or mobile.
 * To keep the content relevant with no unnecessary and overwhelming information.
