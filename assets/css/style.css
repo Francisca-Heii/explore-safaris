@@ -369,6 +369,11 @@ h5 {
     margin:0;
     padding:0;
   }
+
+  .fa-brands, .fab {
+    color: #000;
+
+  }
    /* Footer end */
 
    .ruler {
