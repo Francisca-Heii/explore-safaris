@@ -69,6 +69,7 @@ var markersOnMap = [{
 
 window.onload = function () {
     initMap();
+    weatherInfo();
 };
 
 function addMarkerInfo() {
