@@ -10,10 +10,10 @@
 }
 
 body {
-    /* background-color: #d4d4d0; */
-    background-color: #362515;
+    background-color: #d4d4d0;
+    /* background-color: #362515; */
     font-family: 'Merriweather Sans', sans-serif;
-    font-size: 18px;
+    font-size: 16px;
     letter-spacing: 2px;
 }
 
@@ -54,9 +54,20 @@ body {
     /* padding: 14px 16px; */
     font-weight: bolder;
     text-decoration: none;
-    color:white !important;
+    /* color:white !important; */
+    color: 	#198754 !important;
     font-family: 'Merriweather', serif;
     
+}
+
+/* .nav-item a:active{
+  color: 	#198754;
+  background-color: #fff;
+} */
+
+/*Code to change color of active link*/
+.navbar-nav > .active > a {
+  color: red;
 }
 
 .nav-menu a:hover {
@@ -83,6 +94,12 @@ a:hover {
 .carouselH1{
     border-bottom: white 2px solid;
     padding-bottom: 1.2rem;
+    font-weight: 600;
+}
+
+.carousel-para {
+  font-size: 2em;
+    font-weight: 500;
 }
 
 .carousel{
@@ -162,8 +179,14 @@ hr.divider {
 
 .bg-dark {
     /* background-color: #212529!important; */
-    background-color: #4d1c0d !important;
+    /* background-color: #4d1c0d !important; */
+    background-color: #6c4100 !important;
     /* background-color: #362515 !important; */
+}
+
+.explore-info {
+  border:6px solid #fff;
+  border-radius: 10px;
 }
 
 h5 {
@@ -202,7 +225,15 @@ h5 {
   }
 
   .section-head {
-    border-bottom: 2px solid #fff ;
+    border-bottom: 2px solid #000 ;
+    font-family: "Merriweather";
+    color: #000;
+    font-weight: 400;
+
+  }
+
+  .section-contact-title {
+    border-bottom: 2px solid #fff;
     font-family: "Merriweather";
     color: #fff;
     font-weight: 400;
@@ -217,6 +248,15 @@ h5 {
     -webkit-transform: scale(1.1); /* Safari 3-8 */
     transform: scale(1.1); 
   }
+
+  .bg-explore {
+    background-color: #ccbbbb;
+  }
+
+  .explore-title {
+    color: #000;
+    border-bottom: 2px solid #000;
+}
 
   
 /**********explore fadeIn start********/
@@ -297,6 +337,8 @@ h5 {
   
   .content-image{
     width: 100%;
+    border: 6px solid #fff;
+    border-radius: 10px;
   }
   
   .content-details {
@@ -353,9 +395,18 @@ h5 {
   
   /**********explore fadeIn end********/
 
+  .bg-contact {
+    /* background-color: #362515; */
+    background-color: #6c4100;
+  }
+
   /* Footer start */
   .social-icons{
-    padding: 0px 10px;
+    padding: 0px 5px;
+  }
+
+  .social-section {
+    float: right;
   }
   
   footer{
@@ -371,8 +422,26 @@ h5 {
   }
 
   .fa-brands, .fab {
-    color: #000;
+    /* color: rgb(77 168 81); */
+    color: 	#198754;
 
+  }
+
+  .logo-text {
+      font-weight: 900;
+      font-size:x-large;
+      padding: 10px;
+      font-style: oblique;
+      /* color: rgb(77 168 81); */
+      color: 	#198754;
+  }
+
+  .copyright-text {
+      /* color: rgb(77 168 81); */
+      font-size: medium;
+      font-weight: bolder;
+      font-style: oblique;
+      color: 	#198754;
   }
    /* Footer end */
 
@@ -419,7 +488,7 @@ left:42%;
 
 
 .circle1, .circle2, .circle3 {
-margin: 12px;
+margin: 12px 6px;
 border-radius: 50%;
 font-size: 18px;
 line-height: 52px;
@@ -444,6 +513,12 @@ label {
     color: #0fc937;
     padding-left: 10px;
 }
+
+html {
+  scroll-padding-top: 7.5rem;
+  scroll-behavior: smooth;
+}
+
 
 
   

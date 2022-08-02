@@ -24,9 +24,9 @@
   <!--Navbar start-->
   <nav class="navbar navbar-expand-lg navbar-light fixed-top">
     <div class="container-fluid">
-      <a class="navbar-brand" href="index.html#home">
+      <a class="navbar-brand" href="index.html#">
         <img src="/assets/images/logo.png" class="logo">
-        <span>EXPLORE SAFARIS</span>
+        <span class="logo-text">EXPLORE SAFARIS</span>
       </a>
       <button class="navbar-toggler position" type="button" data-bs-toggle="collapse"
         data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
@@ -36,7 +36,7 @@
       <div class="collapse navbar-collapse " id="navbarSupportedContent">
         <ul class="navbar-nav me-auto mb-2 mb-lg-0 justify-content-end">
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="index.html#home">HOME</a>
+            <a class="nav-link active" aria-current="page" href="index.html#">HOME</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="index.html#about">ABOUT</a>
@@ -71,7 +71,9 @@
 </section>
 
 <!--Hero image end-->
-<section>
+
+<!-- Seasonality start-->
+<section class="seasonality">
   <div class="container-fluid">
     <div class="row p-4">
       <div class="title px-5"><h5>Botswana - Seasonality</h5></div>
@@ -137,13 +139,43 @@
           <li>Cooler and drier time of the year</li> 
         </ul>
       </div>
-    </div>
-    
-    
+    </div>  
   </div>
-  <!--Banner image start-->
 </section>
-<!--section1 end-->
+<!-- Seasonality end-->
+
+<!--Okavango show live weather start-->
+<section class="live-weather">
+  <div class="container">
+    <div class="row align-items-center my-4">
+      <div class="col-lg-6">
+        <div class="card bg-weather text-center" id="weather-info">
+          <h5 class="card-header display"><i class="fa-solid fa-cloud"></i> Live Weather</h5>
+          <div class="card-body">
+            <h3 class="card-title wname" id="wname"></h3>
+            <h3 class="card-title desc" id="desc"></h3>
+            <h3 class="card-title mintemp" id="mintemp">Min Temp : </h3>
+            <h3 class="card-title maxtemp" id="maxtemp">Max Temp : </h3>
+            <h3 class="card-title windspeed" id="windspeed">Wind Speed : </h3>
+            <h3 class="card-title wname" id="wname"></h3>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-6">
+        <div class="card p-lg-4">
+          <h3>Get the current weather forecast</h3>
+          <hr>
+          <p class="lead">Weather can make or break a holiday, luckily the Lakes offer activities during all seasons. So no matter the forecast, you won't be disapointed</p>
+          
+        </div>    
+      </div>
+    </div>
+  </div>
+
+</section>
+<!--Okavango show live weather end-->
+
+<!--Banner image start-->
 <section class="bannerimg">
   <div class="container">
     <div class="row text-light">
@@ -159,9 +191,10 @@
  <!--Banner image end-->
 
  <!--Wildlife in the Okavango start-->
+ <section class="delta-wildlife py-4">
 <div class="container-fluid text-light justify-content-center">
   <div class="row align-items-end ms-auto">
-    <div class="col">
+    <div class="col-md-4 col-lg-2">
           
       <div class="card text-center p-4">
           <img src="./assets/images/wild-life/elephant.png"  class="card-img-top" alt="elephant">
@@ -174,7 +207,7 @@
       </div>
 
   </div>
-      <div class="col">
+      <div class="col-md-4 col-lg-2">
          
           <div class="card text-center  p-4">
               <img src="./assets/images/wild-life/giraffe.png"  class="card-img-top" alt="">
@@ -187,7 +220,7 @@
           </div>
           
       </div>
-      <div class="col">
+      <div class="col-md-4 col-lg-2">
           
         <div class="card text-center p-4">
             <img src="./assets/images/wild-life/lion.png"  class="card-img-top" alt="">
@@ -200,7 +233,7 @@
         </div>
 
     </div>
-      <div class="col">
+      <div class="col-md-4 col-lg-2">
           
         <div class="card text-center p-4">
             <img src="./assets/images/wild-life/buffalo.png"  class="card-img-top" alt="">
@@ -213,7 +246,7 @@
         </div>
 
     </div>
-      <div class="col">
+      <div class="col-md-4 col-lg-2">
           
           <div class="card text-center p-4">
               <img src="./assets/images/wild-life/zebra.png"  class="card-img-top" alt="">
@@ -227,7 +260,7 @@
           
       </div>
 
-      <div class="col">
+      <div class="col-md-4 col-lg-2">
           
         <div class="card text-center p-4">
             <img src="./assets/images/wild-life/hippo.png"  class="card-img-top" alt="">
@@ -252,7 +285,7 @@
 
   <div class="container-fluid ms-auto text-light align-items-center" id="show-hide-chobe-animals" style="display: none">
     <div class="row d-flex align-items-end ms-auto">
-      <div class="col">
+      <div class="col-md-4 col-lg-2">
         
         <div class="card text-center p-4">
             <img src="./assets/images/wild-life/wildebeest.png"  class="card-img-top" alt="">
@@ -265,7 +298,7 @@
         </div>
 
     </div>
-    <div class="col">
+    <div class="col-md-4 col-lg-2">
        
         <div class="card text-center  p-4">
             <img src="./assets/images/wild-life/wild-dog.png"  class="card-img-top" alt="">
@@ -278,7 +311,7 @@
         </div>
         
     </div>
-    <div class="col">
+    <div class="col-md-4 col-lg-2">
         
         <div class="card text-center p-4">
             <img src="./assets/images/wild-life/leopard.png"  class="card-img-top" alt="">
@@ -292,7 +325,7 @@
         
     </div>
     
-    <div class="col">
+    <div class="col-md-4 col-lg-2">
         
         <div class="card text-center p-4">
             <img src="./assets/images/wild-life/cheetah.png"  class="card-img-top" alt="">
@@ -306,7 +339,7 @@
 
     </div>
 
-    <div class="col">
+    <div class="col-md-4 col-lg-2">
         
         <div class="card text-center p-4">
             <img src="./assets/images/wild-life/white-rhino.png"  class="card-img-top" alt="">
@@ -320,7 +353,7 @@
 
     </div>
 
-    <div class="col">
+    <div class="col-md-4 col-lg-2">
         
         <div class="card text-center p-4">
             <img src="./assets/images/wild-life/black-rhino.png"  class="card-img-top" alt="">
@@ -334,6 +367,7 @@
     </div>
     </div>
   </div>
+</section>
 
 <!--Wildlife in the Okavango end-->
 
@@ -454,13 +488,16 @@
   <div class="container-fluid"> 
     <div class="row align-items-center  g-4">
      
-      <div class="col-md">
-        <img src="/assets/images/logo.png" class="logo p-3" alt="Logo" />
+      <div class="col-md-4">
+        <a href="index.html#">
+          <img src="/assets/images/logo.png" class="logo p-3" alt="Logo" />
+          <span class="logo-text">EXPLORE SAFARIS</span>
+        </a>
       </div>
-      <div class="col-md">
-        Copyright &copy; Capstone Project | All Rights Reserved 
+      <div class="col-md-6 copyright-text">
+        Copyright &copy; For educational purposes only | All Rights Reserved 
       </div>
-      <div class="col-md">
+      <div class="col-md-2">
         <div>
           <div>
             <a href="#">
@@ -487,12 +524,16 @@
     integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
     crossorigin="anonymous"></script>
 
+    <!--Weather API-->
+<script src="./assets/js/weather-api.js"></script>
+
 
 </body>
 
 <!--google map api-->
 
-<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBGJuqrzveozY5pfYrqfJ7BLCWYVMMU7Zk"></script>
+<script src="https://maps.googleapis.com/maps/api/js?
+key=AIzaSyBGJuqrzveozY5pfYrqfJ7BLCWYVMMU7Zk"></script>
 
 <script src="assets/js/wildlife.js"></script>
 

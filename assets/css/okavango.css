@@ -42,6 +42,11 @@
     
   /* hero image end */
 
+  .seasonality {
+    background-color: #6c4100;
+    margin-bottom: -25px !important;
+  }
+
   .season-head {
     font-size: 24px;
     color: rgb(85, 235, 55) !important;
@@ -76,7 +81,7 @@
     background-position: center;
     background-size:cover;
     position: relative;
-    margin-top:1rem;
+    margin-top:0rem;
     }
 
     .bullet-green, .bullet-red,
@@ -151,6 +156,12 @@
   p.animal {
       margin-left: 100px;
   }
+
+  .delta-wildlife {
+    background-color: #6c4100;
+    /* background-color: #362515; */
+    padding-bottom: 10px;
+  }
   
   /* Container holding the image and the text */
   .container-bg {
@@ -206,6 +217,7 @@
     border-radius: 10px;
 
   }
+
 
   /* Places to stay slider */
 
@@ -410,8 +422,6 @@
 
   .places-to-stay {
   background-color: #a19898;
-  margin-top: 50px;
-  /* margin-bottom: 50px; */
   padding:50px 0px;
   }
 
@@ -426,4 +436,16 @@
     width: 100%;
     /* The width is the width of the web page */
 }
+
+.live-weather {
+  background-color: #ccbbbb;
+  padding: 50px 0px;
+}
+
+.bg-weather{
+  background-image: linear-gradient(lightblue, white);
+  border: 2px solid #000;
+ 
   
+}
+

@@ -1,3 +1,17 @@
+//Script for active navigation menu
+    $(document).ready(function () {
+        $("ul.navbar-nav > li > a").click(
+          function (e) {
+            $("ul.navbar-nav > li").removeClass("active");
+            $("ul.navbar-nav > li > a").css("color", "");
+            $("ul.navbar-nav > li > a").css("background", "");  
+            $(this).addClass("active");
+            $(this).css("color", "red");
+            $(this).css("background", "yellow");
+        });
+    });
+
+
 // Defining a function to display error message
 function printError(elemId, hintMsg) {
   document.getElementById(elemId).innerHTML = hintMsg;
