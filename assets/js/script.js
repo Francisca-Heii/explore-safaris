@@ -6,10 +6,26 @@
             $("ul.navbar-nav > li > a").css("color", "");
             $("ul.navbar-nav > li > a").css("background", "");  
             $(this).addClass("active");
-            $(this).css("color", "red");
-            $(this).css("background", "yellow");
+            $(this).css("color", "green");
+            $(this).css("background", "white");
         });
     });
+
+// Email js onload
+window.onload = function() {
+  document.getElementById('contactForm').addEventListener('submit', function(event) {
+      event.preventDefault();
+      // generate a five digit number for the contact_number variable
+      this.contact_number.value = Math.random() * 100000 | 0;
+      // these IDs from the previous steps
+      emailjs.sendForm('contact_service', 'contactForm', this)
+          .then(function() {
+              console.log('SUCCESS!');
+          }, function(error) {
+              console.log('FAILED...', error);
+          });
+  }); 
+}
 
 
 // Defining a function to display error message
@@ -80,7 +96,6 @@ function validateForm() {
   if (phonenumber == '') {
     printError('phonenumberErr', 'Please write your phone number');
   } else {
-    // var regex = /^[1-9]\d{9}$/;
     var regex = /^[+]*[(]{0,1}[0-9]{1,3}[)]{0,1}[-\s\./0-9]*$/g
     ;
     if (regex.test(phonenumber) === false) {
@@ -94,7 +109,7 @@ function validateForm() {
     }
   }
 
-  // Validate subject
+  // Validate subject field
   if (subject == '') {
     printError('subjectErr', 'Please write a subject');
   } else {
@@ -107,7 +122,7 @@ function validateForm() {
     }
   }
 
-  // Validate message
+  // Validate message field
   if (message == '') {
     printError('messageErr', 'Please write a message');
   } else {
@@ -155,10 +170,8 @@ function validateForm() {
       '\n';
 
     // Display input data in a dialog box before submitting the form
-
-  //alert(dataPreview);
-
-    
+  //alert(dataPreview); 
+// Email js send mail function
     SendMail();
   }
 }
@@ -181,7 +194,7 @@ function SendMail() {
 
     });
 }
-
+// reset form data after form submission
 function resetForm() {
   const form = document.getElementById('contactForm');
   form.reset();
