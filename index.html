@@ -15,8 +15,8 @@
 "https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js">
       </script>
 
-    <!--emailJS start-->
-    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+   <!--emailJS script-->
+   <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
         
         
     <script type="text/javascript">
@@ -25,36 +25,7 @@
           emailjs.init('DOBqgWJovmKojvLBf');
       })();
   </script>
-  
-  <script type="text/javascript">
-      window.onload = function() {
-          document.getElementById('contactForm').addEventListener('submit', function(event) {
-              event.preventDefault();
-              // generate a five digit number for the contact_number variable
-              this.contact_number.value = Math.random() * 100000 | 0;
-              // these IDs from the previous steps
-              emailjs.sendForm('contact_service', 'contactForm', this)
-                  .then(function() {
-                      console.log('SUCCESS!');
-                  }, function(error) {
-                      console.log('FAILED...', error);
-                  });
-          }); 
-      }
-
-  </script>
-
-
-<style>
-  .error{
-      color:#ff0000;
-  }
-</style>
-    
-    <!--emailJS end-->
-   
-
-    
+ 
   <link rel="stylesheet" href="/assets/css/style.css">
 
   <title>Explore Safaris</title>
@@ -116,7 +87,7 @@
         <div class="carousel-caption ">
           <h1 class="carouselH1">Experience Safaris</h1>
 
-          <p class="carousel-para">The untouched and undestroyed nature.</p>
+          <p>The untouched and undestroyed nature.</p>
           <div class="card1 d-none d-md-block">
             Capital: Gaborone
             <br>
@@ -127,11 +98,11 @@
         </div>
       </div>
       <div class="carousel-item">
-        <img src="/assets/images/elephant-slider1.jpg" class="d-block w-100" alt="...">
+        <img src="/assets/images/sunset.jpg" class="d-block w-100" alt="...">
         <div class="carousel-caption ">
           <h1 class="carouselH1">Experience Safaris</h1>
 
-          <p class="carousel-para">The untouched and undestroyed nature.</p>
+          <p>The untouched and undestroyed nature.</p>
           <div class="card1 d-none d-md-block">
             Capital: Gaborone
             <br>
@@ -142,11 +113,11 @@
         </div>
       </div>
       <div class="carousel-item">
-        <img src="/assets/images/lechwe.jpg" class="d-block w-100" alt="...">
+        <img src="/assets/images/elephants-slider.jpg" class="d-block w-100" alt="...">
         <div class="carousel-caption">
           <h1 class="carouselH1">Experience Safaris</h1>
 
-          <p class="carousel-para">The untouched and undestroyed nature.</p>
+          <p>The untouched and undestroyed nature.</p>
           <div class="card1 d-none d-md-block">
             Capital: Gaborone
             <br>
@@ -157,11 +128,11 @@
         </div>
       </div>
       <div class="carousel-item">
-        <img src="/assets/images/lion.jpg" class="d-block w-100" alt="...">
+        <img src="/assets/images/okavango-lions.jpg" class="d-block w-100" alt="...">
         <div class="carousel-caption">
           <h1 class="carouselH1">Experience Safaris</h1>
 
-          <p class="carousel-para">The untouched and undestroyed nature.</p>
+          <p>The untouched and undestroyed nature.</p>
           <div class="card1 d-none d-md-block">
             Capital: Gaborone
             <br>
@@ -303,7 +274,7 @@
   <section class="bg-contact">
     <div class="row text-light p-5 "id="contact">
         <div class="col-lg-12 text-center text-primary">  
-          <h3 class="text-secondary mb-4 text-center"><span class="section-contact-title">Contact</span></h3>
+          <h3 class="text-secondary mb-4 text-center"><span class="section-contact-title">CONTACT</span></h3>
         </div>
          <div class="col-md-6">
           <div class="container">
@@ -317,8 +288,6 @@
          </div>
          <div class="col-md-6">
             <div class="container py-4">
-
-                <!-- Bootstrap 5 starter form -->
             
                 <form name="contactForm" id="contactForm" onsubmit="return validateForm()" action="contact-form.html" method="post">
  
@@ -370,13 +339,9 @@
          </div>
        </div>
       </section>     
-    <!--Contact-us end-->
-  </section>
-
   <!--Contact-us end-->
-  
 
-  <!-- Modal National Park-->
+  <!-- Modal Chobe National Park start-->
 <div class="modal fade" id="national_park" tabindex="-1" aria-labelledby="nationalParkModalLabel" aria-hidden="true">
   <div class="modal-dialog">
     <div class="modal-content">
@@ -396,8 +361,9 @@
     </div>
   </div>
 </div>
+<!-- Modal Chobe National Park end-->
 
-<!-- Modal okavango-->
+<!-- Modal okavango Delta start-->
 <div class="modal fade" id="okavango" tabindex="-1" aria-labelledby="okavangoModalLabel" aria-hidden="true">
   <div class="modal-dialog">
     <div class="modal-content">
@@ -415,21 +381,6 @@
         <p>
         <strong><i>ROUND WINNER: Okavango Delta.</i></ROUND></strong> Sure, Chobe is beautiful, and diverse. But the Okavango Delta is a totally unique eden smack in the heart of Southern Africa.
       </p>
-        <!-- <b>Basic supplies</b>
-<p>It is very important to have enough water on hand, because the national parks can be very hot, with 30°C in the shade being common. Slap on liberal amounts of sunscreen and wear a wide-brimmed hat that will not be blown off in the wind. On the other hand, early morning and night drives can be distinctly chilly during the African winter, so a sweater or coat will come in handy.</p>
-
-<p>Game drives are best enjoyed when you have good optical equipment such as binoculars, still cameras and video cameras. All optical equipment has to cope with very difficult light conditions, such as intense sunlight during daytime and very little light at the crack of dawn when many predators are active.</p>
-
-<b>Binoculars</b>
-<p>Some animals, such as elephants and giraffes, tend to approach closely to cars and standard equipment will allow good viewing. Lions, cheetahs and leopards are sometimes shy and you will see them better with binoculars. Binoculars should have 10× magnification, ideally with night vision glass quality.</p>
-
-<b>Cameras</b>
-<p>See also: Travel photography, Wildlife photography<br>
-Good safari photography doesn't come easily or cheaply. The most obvious requirement is a telephoto lens: 200mm is a practical minimum, 300mm is better, and the pros (especially birdwatchers) carry 500mm lenses that could be mistaken for a telescope. However, it's not enough for the lens to be merely long -- you'll also need a fast lens that works well in low-light conditions in the morning and evening. Unfortunately, a lens that's both long and fast can be ludicrously expensive. You can compensate to some extent with a tripod or its more portable cousin the monopod - with any lens past 300mm this becomes a practical necessity to eliminate blurriness.</p>
-
-If you have an SLR or similar prosumer camera, spend some time studying your camera's settings. A large aperture (small number) will help the subject stand out by blurring the background. Continuous focusing mode is useful for tracking moving animals.
-
-Remember that you may shoot more pictures than ever before in your life because there are so many interesting things to see. If you shoot on film, you should consider having as much as five times as much as you would usually take, while if you do so on digital you may want many more memory cards or other storage media than usual.The same thing applies for your camera battery, which is likely to be flat after just one day of game viewing. Big lenses and continuous focusing will suck on the battery more than usual. -->
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-success" data-bs-dismiss="modal">Close</button>
@@ -437,6 +388,7 @@ Remember that you may shoot more pictures than ever before in your life because 
     </div>
   </div>
 </div>
+<!-- Modal okavango Delta end-->
 
 <!--Footer start-->
 
@@ -446,7 +398,7 @@ Remember that you may shoot more pictures than ever before in your life because 
      
       <div class="col-md-4">
         <a href="index.html#">
-          <img src="/assets/images/logo.png" class="logo p-3" alt="Logo" />
+          <img src="/assets/images/logo.png" class="logo" alt="Logo" />
           <span class="logo-text">EXPLORE SAFARIS</span>
         </a>
       </div>
@@ -470,15 +422,17 @@ Remember that you may shoot more pictures than ever before in your life because 
 
 <!--Footer end-->
 
-  <!-- Option 1: Bootstrap Bundle with Popper -->
   
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
     crossorigin="anonymous"></script>
+    <!--main javascript file-->
+    <script src="./assets/js/script.js"></script>
+     
 
 
 </body>
-<script src="./assets/js/script.js"></script>
+
 
 </html>
 
