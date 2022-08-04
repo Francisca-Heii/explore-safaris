@@ -126,24 +126,24 @@
     width:fit-content;
   }
    
-  p.animal a img {
+  p.animal img {
       display: none;
       position: absolute;
       left:0px;
       top: 20px;
       transition: 3s ease-in-out;
   }
-  p.animal a {
+  p.animal {
       display: inline-block;
       position: relative;
       margin-left:-100px;
       color:#fff;
       
   }
-  p.animal a img {
+  p.animal img {
       display: none;
   }
-  p.animal a:hover img {
+  p.animal:hover img {
       display: inherit;
       border:5px solid rgb(228, 226, 226);
       border-radius: 10px;
@@ -154,7 +154,7 @@
       
   }
   p.animal {
-      margin-left: 100px;
+      margin-left: 10px;
   }
 
   .delta-wildlife {
