@@ -124,6 +124,7 @@
 
   .animal-status{
     width:fit-content;
+    font-size: 14px;
   }
    
   p.animal img {
@@ -155,7 +156,7 @@
   }
   p.animal {
       margin-left: 10px;
-      
+
   }
 
   .delta-wildlife {
