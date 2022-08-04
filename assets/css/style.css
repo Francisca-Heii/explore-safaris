@@ -45,28 +45,22 @@ h1, h2, h3, h4, h5 {
     float: left;
 }
 
-.nav-menu a {
+/* .nav-menu a {
     display: block;
     padding: 14px 16px;
     text-decoration: none;
     color:red !important;
     font-family: 'Merriweather', serif;
     
-}
+} */
 .nav-item a{
     letter-spacing: 3px;
     font-weight: bold;
 }
 .nav-item a:hover{
     display: block;
-    font-weight: bolder;
     text-decoration: none;
-    font-family: 'Merriweather', serif;
     
-}
-
-.navbar-nav > .active > a {
-  color: red;
 }
 
 .nav-menu a:hover {
