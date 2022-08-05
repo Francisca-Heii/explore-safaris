@@ -425,7 +425,6 @@ h5 {
   }
 
   .fa-brands, .fab {
-    /* color: rgb(77 168 81); */
     color: 	#198754;
 
   }
@@ -435,12 +434,10 @@ h5 {
       font-size:x-large;
       padding: 10px;
       font-style: oblique;
-      /* color: rgb(77 168 81); */
       color: 	#198754;
   }
 
   .copyright-text {
-      /* color: rgb(77 168 81); */
       font-size: medium;
       font-weight: bolder;
       font-style: oblique;
