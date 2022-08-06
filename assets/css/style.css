@@ -452,6 +452,10 @@ h5 {
     line-height: 3rem;
    }
 
+   .contact-info{
+    text-decoration: none;
+   }
+
 /* section1 */
 .title{
 background-color: rgb(236, 233, 228);
