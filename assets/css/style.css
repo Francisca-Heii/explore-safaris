@@ -174,11 +174,11 @@ hr.divider {
     text-decoration: underline;
 }
 
-.img-fluid {
+/* .img-fluid {
     height: 350px;
-    /* height: 90px; */
+    height: 90px;
 
-}
+} */
 
 .bg-dark {
     /* background-color: #212529!important; */
