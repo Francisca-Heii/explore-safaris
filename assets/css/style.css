@@ -154,6 +154,15 @@ hr.divider {
     border: none;
 }
 
+.modal-data {
+  background-color: rgb(25, 135, 84);
+  color: white;
+  padding: 20px 20px;
+  border-left: 20px solid #fff;
+  border-right: 20px solid #fff;
+  margin: 10px;
+}
+
 .list-group-item {
     background-color: transparent;
 }
