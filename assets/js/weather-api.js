@@ -23,11 +23,16 @@ function weatherInfo() {
       var descValue = data['weather'][0]['description'];
       var windSpeed = data['wind']['speed'];
 
-      wname.innerHTML = nameValue;
-      mintemp.innerHTML += mintempValue;
-      maxtemp.innerHTML += maxtempValue;
-      desc.innerHTML = descValue;
-      windspeed.innerHTML += windSpeed; 
+     //converting Kelvin temperature to celcius
+     mintempValue = (mintempValue - 273.15).toFixed(0);
+     maxtempValue = (maxtempValue - 273.15).toFixed(0);
+     windSpeed = (windSpeed * 1.60934).toFixed(0);
+
+     wname.innerHTML = nameValue;
+     mintemp.innerHTML = mintemp.innerHTML + mintempValue + ' &#8451;';
+     maxtemp.innerHTML = maxtemp.innerHTML + maxtempValue + ' &#8451;';
+     desc.innerHTML = descValue;
+     windspeed.innerHTML = windspeed.innerHTML + windSpeed + ' km/h';
       
       
     })
