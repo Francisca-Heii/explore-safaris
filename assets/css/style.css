@@ -154,6 +154,10 @@ hr.divider {
     border: none;
 }
 
+.embed-responsive-item {
+    width: 100%;
+}
+
 .modal-data {
   background-color: rgb(25, 135, 84);
   color: white;
@@ -200,6 +204,17 @@ hr.divider {
   border:6px solid #fff;
   border-radius: 10px;
 }
+
+/* .explore-btn-links {
+    color: #fff;
+    text-decoration: none;
+}
+
+.explore-btn-links:hover {
+  color: #fff;
+
+} */
+
 
 h5 {
     font-weight: bold;

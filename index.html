@@ -21,7 +21,7 @@
    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
         
         
-    <script type="text/javascript">
+    <script>
       (function() {
           // https://dashboard.emailjs.com/admin/account
           emailjs.init('DOBqgWJovmKojvLBf');
@@ -73,7 +73,7 @@
 
   <!--Carousel start-->
 
-  <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel" id="home">
+  <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel" >
     <div class="carousel-indicators">
       <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
         aria-current="true" aria-label="Slide 1"></button>
@@ -166,7 +166,7 @@
             <div class="card bg-dark text-light  p-4 explore-info">
               
               <h5 class="card-title mt-3 text-center">Okavango Delta</h5>
-              <p class="card-text">
+              <div class="card-text">
                 <div>If you’ve ever wondered what happens when a river meets a desert, the Okavango Delta is your answer.<br><br>
                    After coursing its way through Namibia and Botswana from Angola, it’s here that the Okavango River reaches the semi-arid sands of the Kalahari desert, spilling life-giving arteries through the flat floodplains.
                 </div>
@@ -174,14 +174,14 @@
                 <button type="button" class="btn btn-lg btn-success m-4" data-bs-toggle="modal" data-bs-target="#okavango">
                   Read More
                 </button>
-              </p>
+              </div>
             </div>
           </div>
           <div class="col-md-6">
             <div class="card bg-dark text-light p-4 explore-info">
               <h5 class="card-title mt-3 text-center">Chobe National Park
               </h5>
-              <p class="card-text">
+              <div class="card-text">
                 <div>First set aside as a wildlife reserve in 1930, Chobe National Park, which sits to the north east of the country, officially became Botswana’s first national park in 1968.
                   <br><br>
                   It’s been a pretty popular safari spot ever since;even <strong><i>Hollywood royalty Elizabeth Taylor and Richard Burton</i></strong>  chose the park for their Honeymoon in 1975.
@@ -190,19 +190,19 @@
                 <button type="button" class="btn btn-lg btn-success m-4" data-bs-toggle="modal" data-bs-target="#national_park">
                   Read More
                 </button>
-              </p>
+              </div>
           </div>                            
           </div>
           <div class="col-md m-auto">
             <div class="card">
-              <p class="card-text">
+              <div class="card-text">
                 <div class="video-wrapper">
                 <div class="embed-responsive embed-responsive-16by9">
-                  <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/__lYWslv7W4?start=90&loop=1" width="100%" height="400" ></iframe>
+                  <iframe class="embed-responsive-item " src="https://www.youtube.com/embed/__lYWslv7W4?start=90&loop=1" width="400" height="400" ></iframe>
                   
                 </div>
               </div>
-              </p>
+            </div>
           </div>                            
           </div>
           
@@ -219,7 +219,6 @@
      <div class="col-md-6">
       <div class="container-explore">
         <div class="content">
-          <a href="okavango.html" target="_blank">
             <div class="content-overlay"></div>
             <img class="content-image img-fluid" src="assets/images/okavango/okavango-home.jpg">
             <div class="c1">
@@ -228,17 +227,13 @@
             <div class="content-details fadeIn-bottom">
               <h3>Place to explore</h3>
               <p class="lead">If you’re after a true wilderness experience in one of Africa’s last Eden’s, make the time to explore the Okavango Delta</p>
-              <button class="btn btn-lg btn-success">Explore  Now</button>
+              <a href="okavango.html" target="_blank" class="btn btn-lg btn-success">Explore Now</a>
 
-            </div>
-          </a>
-          
+            </div> 
         </div>
-        <a href="okavango.html" target="_blank">
         <div class="d-grid mt-2">
-            <button class="btn btn-lg btn-success" type="button">Explore</button>
+          <a href="okavango.html" target="_blank" class="btn btn-lg btn-success">Explore</a>
             </div>
-          </a>
      </div>
 
    </div>
@@ -246,7 +241,6 @@
    <div class="col-md-6">
     <div class="container-explore">
       <div class="content">
-        <a href="chobe.html" target="_blank">
           <div class="content-overlay"></div>
           <img class="content-image 
           img-fluid" src="assets/images/national-park/chobe--3.jpg">
@@ -257,16 +251,12 @@
           <div class="content-details fadeIn-bottom">
             <h3>Place to explore</h3>
             <p class="lead">If you’re after an action-packed animal adventure in lush surrounds, Chobe’s your place</p>
-            <button class="btn btn-lg btn-success">Explore  Now</button>
-
+            <a href="chobe.html" target="_blank" class="btn btn-lg btn-success">Explore Now</a>
           </div>
-        </a>
       </div>
-      <a href="chobe.html" target="_blank">
       <div class="d-grid mt-2">
-        <button class="btn btn-lg btn-success" type="button">Explore</button>
+       <a href="chobe.html" target="_blank" class="btn btn-lg btn-success">Explore</a>
         </div>
-        </a>
    </div>
  </div>
  </div>
@@ -275,7 +265,7 @@
   <!--Contact-us start-->
 
   <section class="bg-contact">
-    <div class="row text-light p-5 "id="contact">
+    <div class="row text-light p-5" id="contact">
         <div class="col-lg-12 text-center text-primary">  
           <h3 class="text-secondary mb-4 text-center"><span class="section-contact-title">CONTACT</span></h3>
         </div>
@@ -283,8 +273,8 @@
           <div class="container">
             <div class="text-left  mt-2 p-4 mb-4"><h4 class="ruler">Contact Details</h4>
               <p><b><i class="fa-solid fa-location-dot"></i> Address: </b><span> Airport Road, President Ave, Kasane</span></p>
-              <p><b><i class="fa-solid fa-phone"></i> </b><span><b>Phone Number: <a href="tel:+353 01 567432" class="text-light contact-info" >+353 01 567432</a></b></span></p>
-              <p><b><i class="fa-solid fa-envelope"></i></b><span><b> Email: <a href="mailto:explore-safaris@gmail.com" class="text-light contact-info">explore-safaris@gmail.com</b></a></span></p>
+              <p><b><i class="fa-solid fa-phone"></i> </b><span><b>Phone Number: <a href="tel:+35301567432" class="text-light contact-info">+353 01 567432</a></b></span></p>
+              <p><b><i class="fa-solid fa-envelope"></i></b><span><b> Email: <a href="mailto:explore-safaris@gmail.com" class="text-light contact-info">explore-safaris@gmail.com</a></b></span></p>
             </div>
            </div>
            
@@ -322,7 +312,7 @@
                       </div>
                       <div class="col-12">
                           <label class="form-label" >Message</label>
-                          <textarea class="form-control" id="message" name="message" type="text" placeholder="Message" style="height: 10rem;"></textarea>
+                          <textarea class="form-control" id="message" name="message" placeholder="Message" style="height: 10rem;"></textarea>
                           <div class="error" id="messageErr"></div>     
                       </div>
                       <div class="col-12">
@@ -382,7 +372,7 @@
           The World Heritage-listed area is an ecological hotspot, with its network of reed-lined waterways and channels, flooded woodlands, palm-fringed islands providing vital habitat for some of Africa’s most celebrated flora and fauna.
         </p>
         <p>
-        <strong><i>ROUND WINNER: Okavango Delta.</i></ROUND></strong> Sure, Chobe is beautiful, and diverse. But the Okavango Delta is a totally unique eden smack in the heart of Southern Africa.
+        <strong><i>ROUND WINNER: Okavango Delta.</i></strong> Sure, Chobe is beautiful, and diverse. But the Okavango Delta is a totally unique eden smack in the heart of Southern Africa.
       </p>
       </div>
       <div class="modal-footer">

@@ -37,5 +37,5 @@ function weatherInfo() {
       
     })
 
-    .catch((err) => alert('Wrong city name'));
+    // .catch((err) => alert('Wrong city name'));
 }
