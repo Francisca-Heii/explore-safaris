@@ -1,3 +1,5 @@
+// jshint esversion: 6
+/*jshint sub:true*/
 //Script for active navigation menu
     $(document).ready(function () {
         $("ul.navbar-nav > li > a").click(
@@ -16,7 +18,7 @@ window.onload = function() {
   document.getElementById('contactForm').addEventListener('submit', function(event) {
       event.preventDefault();
       // generate a five digit number for the contact_number variable
-      this.contact_number.value = Math.random() * 100000 | 0;
+      this.contact_number.value = Math.random() * 100000;
       // these IDs from the previous steps
       emailjs.sendForm('contact_service', 'contactForm', this)
           .then(function() {
@@ -25,7 +27,7 @@ window.onload = function() {
               console.log('FAILED...', error);
           });
   }); 
-}
+};
 
 
 // Defining a function to display error message
@@ -56,8 +58,8 @@ function validateForm() {
   if (firstname == '') {
     printError('firstnameErr', 'Please write your first name');
   } else {
-    var regex = /^[a-zA-Z\s]+$/;
-    if (regex.test(firstname) === false) {
+    var regex1 = /^[a-zA-Z\s]+$/;
+    if (regex1.test(firstname) === false) {
       printError('firstnameErr', 'Please write a valid first name');
     } else {
       printError('firstnameErr', '');
@@ -69,8 +71,8 @@ function validateForm() {
   if (lastname == '') {
     printError('lastnameErr', 'Please write your last name');
   } else {
-    var regex = /^[a-zA-Z\s]+$/;
-    if (regex.test(lastname) === false) {
+    var regex2 = /^[a-zA-Z\s]+$/;
+    if (regex2.test(lastname) === false) {
       printError('lastnameErr', 'Please write a valid last name');
     } else {
       printError('lastnameErr', '');
@@ -83,8 +85,8 @@ function validateForm() {
     printError('emailErr', 'Please write your email address');
   } else {
     // Regular expression for basic email validation
-    var regex = /^\S+@\S+\.\S+$/;
-    if (regex.test(email) === false) {
+    var regex3 = /^\S+@\S+\.\S+$/;
+    if (regex3.test(email) === false) {
       printError('emailErr', 'Please write a valid email address');
     } else {
       printError('emailErr', '');
@@ -96,9 +98,9 @@ function validateForm() {
   if (phonenumber == '') {
     printError('phonenumberErr', 'Please write your phone number');
   } else {
-    var regex = /^[+]*[(]{0,1}[0-9]{1,3}[)]{0,1}[-\s\./0-9]*$/g
+    var regex4 = /^[+]*[(]{0,1}[0-9]{1,3}[)]{0,1}[-\s\./0-9]*$/g
     ;
-    if (regex.test(phonenumber) === false) {
+    if (regex4.test(phonenumber) === false) {
       printError(
         'phonenumberErr',
         'Please write a valid phone number'
@@ -113,8 +115,8 @@ function validateForm() {
   if (subject == '') {
     printError('subjectErr', 'Please write a subject');
   } else {
-    var regex = /^[a-zA-Z\s]+$/;
-    if (regex.test(subject) === false) {
+    var regex5 = /^[a-zA-Z\s]+$/;
+    if (regex5.test(subject) === false) {
       printError('subjectErr', 'Please write a valid subject');
     } else {
       printError('subjectErr', '');
@@ -196,6 +198,6 @@ function SendMail() {
 }
 // reset form data after form submission
 function resetForm() {
-  const form = document.getElementById('contactForm');
+  var form = document.getElementById('contactForm');
   form.reset();
 }

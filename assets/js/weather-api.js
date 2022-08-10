@@ -1,11 +1,12 @@
+// jshint esversion: 6
+/*jshint sub:true*/
 let wname = document.getElementById('wname');
 let desc = document.getElementById('desc');
 let mintemp = document.getElementById('mintemp');
 let maxtemp = document.getElementById('maxtemp');
 let windspeed = document.getElementById('windspeed');
 
-
-const element = document.getElementById('weather-info');
+weatherInfo();
 function weatherInfo() {
   const cityName = 'Kasane';
 
@@ -35,7 +36,7 @@ function weatherInfo() {
      windspeed.innerHTML = windspeed.innerHTML + windSpeed + ' km/h';
       
       
-    })
+    });
 
     // .catch((err) => alert('Wrong city name'));
 }

@@ -1,5 +1,5 @@
 // Okavango wildlife show more button
-function showMoreAnimals() {
+function okavangoMoreAnimals() {
   var x = document.getElementById("show-hide-animals");
   var b = document.getElementById("btn-show-hide-animals");
   if (x.style.display === "none") {
