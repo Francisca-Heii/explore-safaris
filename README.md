@@ -95,3 +95,57 @@ Links to the wireframes are listed below:
 * [landing page(desktop)](assets/wireframes/desktop.pdf)
 * [Explore page(desktop)](assets/wireframes/desktop-explore-chobe.pdf)
 * [landing page(ipad)](assets/wireframes/ipad.pdf)
+
+# Testing
+
+## Markup Validation
+
+### HTML and CSS
+
+Both W3C HTML and Jigsaw CSS Markup Validators were used to check the validity of the source code:
+
+#### W3C 
+##### index page
+
+The screenshot below shows warnings and errors thrown when using certain HTML attributes on some elements of the page.
+![Screenshot of index page](assets/images/testing/index/index2.JPG)
+
+- The flagged **warnings** fixed by removing the "type" attribute as it is not necessary for JavaScript resources.
+- **Error 3** fixed by adding the **alt attribute** to specify alternate text for an area, if the image cannot be displayed.
+- **Error 4** fixed by removing the duplicated unused id included in the navigation link
+
+![Screenshot of index page](assets/images/testing/index/index3.JPG)
+
+- **Error 5,6,8** triggered due to element scope issues. Had a **div tag** defined in a **p tag**.To fix this I changed a **p tag** and used a **div tag** instead.
+- **Error 7** The error was triggered by use of **%** given to the width attribute. To fix this I changed the width attribute from 100% to 400.
+- **Error 9** fixed by adding the **alt attribute** to specify alternate text for an area, if the image cannot be displayed.
+
+![Screenshot of index page](assets/images/testing/index/index4.JPG)
+
+- **10,11,13,14?????** Error triggered due to the use of incorrect descendant element. to fix this I 
+removed nested buttons and anchor tags - only anchor tags used 
+
+- **Error 12** fixed by adding the **alt attribute** to specify alternate text for an area, if the image cannot be displayed.
+- **Error 15** I was only missing a space between two attributes.
+
+![Screenshot of index page](assets/images/testing/index/index5.JPG)
+
+- **Error 16** triggered by illegal character in scheme data. Fixed the error by removing the unwanted space in href attribute value phone number.
+- **Error 17** closed the **b tag** at the right place.
+
+- **Error 18** ???????
+????
+- **Error 18** ???????
+????
+- **Error 18** ???????
+????
+
+![Screenshot of index page](assets/images/testing/index/index6.JPG)
+- **Error 19** triggered by the **type attribute**. Error fixed by removing the un wanted attribute.
+
+![Screenshot of index page](assets/images/testing/index/index7.JPG)
+
+- **Error 20** error fixed by removing the wrong closing tag
+
+
+#### W3C Jigsaw Issues
