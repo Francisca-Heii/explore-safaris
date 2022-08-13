@@ -30,10 +30,10 @@ function weatherInfo() {
      windSpeed = (windSpeed * 1.60934).toFixed(0);
 
      wname.innerHTML = nameValue;
-     mintemp.innerHTML = mintemp.innerHTML + mintempValue + ' &#8451;';
-     maxtemp.innerHTML = maxtemp.innerHTML + maxtempValue + ' &#8451;';
+     mintemp.innerHTML = "Min Temp : " + mintempValue + ' &#8451;'
+     maxtemp.innerHTML = "Max Temp : " + maxtempValue + ' &#8451;'
      desc.innerHTML = descValue;
-     windspeed.innerHTML = windspeed.innerHTML + windSpeed + ' km/h';
+     windspeed.innerHTML = "Wind Speed : " + windSpeed + ' km/h';
       
       
     });
