@@ -129,6 +129,8 @@ hr.divider {
 
 .position {
   position: absolute;
+  top: 30%; 
+  right:4%;
 
   top: 30%;
   right: 4%;
