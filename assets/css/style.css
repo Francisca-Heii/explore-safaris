@@ -506,8 +506,8 @@ top: 42%;
 left:42%;
 } */
 
-
-/* .circle1,
+/* Chobe and Okavango seasonality circles start */
+.circle1,
 .circle2,
 .circle3 {
   margin: 12px 6px;
@@ -517,9 +517,9 @@ left:42%;
   text-align: center;
   color: #fff;
   padding: 16px;
-} */
+}
 
-/* .circle1 {
+.circle1 {
   background: #5f682e;
 }
 
@@ -529,6 +529,7 @@ left:42%;
 
 .circle3 {
   background: #6c4100;
-} */
+}
+/* Chobe and Okavango seasonality circles end */
 
 
