@@ -41,6 +41,7 @@
   
   /* hero image end */
 
+   /* seasonality start */
   .seasonality {
     background-color: #6c4100;
     margin-bottom: -25px !important;
@@ -58,7 +59,6 @@
     font-size: 16px;
     line-height: 45px;
     text-align: center;
-    color: #fff;
     padding: 4px 6px;
   }
 
@@ -121,8 +121,10 @@
   .bullet-grey {
     background-color: grey;  
   }
+   /* seasonality end */
 
 
+    /* wildlife start */
   .animal-status{
     width:fit-content;
     font-size: 14px;
@@ -151,9 +153,7 @@
       border-radius: 10px;
       position: absolute;
       top: -200px;
-      left:-82px;
-      /* transition-delay: 1.8s; */
-      
+      left:-82px;   
   }
   p.animal {
       margin-left: 10px;
@@ -161,7 +161,6 @@
 
   .delta-wildlife {
     background-color: #6c4100;
-    /* background-color: #362515; */
     padding-bottom: 10px;
     
   }
@@ -173,35 +172,30 @@
     color: white;
   }
   
-  /* Bottom left text */
   .bottom-left {
     position: absolute;
     bottom: 8px;
     left: 16px;
   }
   
-  /* Top left text */
   .top-left {
     position: absolute;
     top: 8px;
     left: 16px;
   }
   
-  /* Top right text */
   .top-right {
     position: absolute;
     top: 8px;
     right: 16px;
   }
   
-  /* Bottom right text */
   .bottom-right {
     position: absolute;
     bottom: 8px;
     right: 16px;
   }
   
-  /* Centered text */
   .centered {
     position: absolute;
     top: 50%;
@@ -223,14 +217,14 @@
 
 
   .card-img-top {
-    /* background-color: #fff; */
     padding: 10px;
     border-radius: 10px;
 
   }
 
-   /* Places to stay slider */
+   /* Wildlife end */
 
+   /* Places to stay slider start */
    .slide-container{
     width: 100%;
     padding: 10px 0;
@@ -363,12 +357,8 @@
     .slide-content{
       margin: 0 10px;
     }
-    .swiper-navBtn{
-      /*display: none;*/
-    }
   }
-  
-  
+
   .stay-details{
   position: absolute;
   left: 3px;
@@ -434,13 +424,12 @@
   background-color: #a19898;
   padding: 50px 0px;
   }
+   /* Places to stay slider end */
 
-  /* map */
+  /* Map start */
   #map {
     height: 600px;
-    /* The height is 400 pixels */
     width: 100%;
-    /* The width is the width of the web page */
 }
 
 .live-weather {
@@ -451,15 +440,13 @@
 .bg-weather{
   background-image: linear-gradient(lightblue, white);
   border: 2px solid #000;
- 
-  
 }
 
-/*media queries*/
+ /* Map end */
 
+/*media queries start */
 .hero-content{
   padding: 10px;
- 
 }
 
 @media (min-width:320px) and (max-width: 400px){
@@ -542,7 +529,6 @@ font-weight: bolder;
       padding: 0px 30px;
     }
     
-   
   .social-section {
     float: none;
     text-align: center;
@@ -582,7 +568,6 @@ width:60px;
 }
 
 }
-
 
 @media (min-width:801px) and (max-width: 1023px){
 body {
@@ -631,6 +616,7 @@ right:4%;
     margin-right: -11px;
   }
   }
+  /*media queries end */
 
 
   

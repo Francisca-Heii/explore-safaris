@@ -1,4 +1,4 @@
-/*media queries*/
+/*media queries start*/
 
 @media (min-width:320px) and (max-width: 400px){
   body{
@@ -154,15 +154,11 @@
       bottom: 10%;
       font-size: 16px;
     }
-    /* .img-fluid{
-      height:210px;
-    } */
+
     .navbar-brand span{
       font-size:1rem !important;
     }
-    /* .navbar-light .navbar-toggler{
-      right:100px;
-    } */
+    
     #about{
       margin-top: -16rem;
     }
@@ -318,6 +314,7 @@ padding-top: 0px;
       margin-right: -11px;
     }
     }
+    /*media queries end*/
 	
 	
 	
