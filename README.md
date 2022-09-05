@@ -1,5 +1,5 @@
 # **Explore Safaris**
-[View live version of website via GitHub Pages](https://franciskadtt.github.io/voyager/)
+[View live version of website via GitHub Pages](https://explore-safaris.netlify.app/)
 ![Website Displayed on 'AmIResponsive.com'](assets/images/readme-images/explore-safaris-amiresponsive.png)
 
 **_Explore Safaris_** is an interactive safari application built with HTML, CSS, and JavaScript. The main users of the application are tourists who plan to visit safaris in Botswana or anyone who could be interested in browsing the application to find out more information about safaris and which places they can explore.
