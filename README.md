@@ -1,4 +1,5 @@
 # **Explore Safaris**
+[View the live project here.](https://explore-safaris.netlify.app/)
 [View live version of website via GitHub Pages](https://explore-safaris.netlify.app/)
 ![Website Displayed on 'AmIResponsive.com'](assets/images/readme-images/explore-safaris-amiresponsive.png)
 
