@@ -1,7 +1,7 @@
 # **Explore Safaris**
 [View the live project here.](https://explore-safaris.netlify.app/)
 
-![Website in different screens](assets/readme-images/responsive.jpg)
+![Website in different screens](assets/images/responsive-img.jpg)
 
 **_Explore Safaris_** is an interactive safari application built with HTML, CSS, and JavaScript. The main users of the application are tourists who plan to visit safaris in Botswana or anyone who could be interested in browsing the application to find out more information about safaris and which places they can explore.
 
